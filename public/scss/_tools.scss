@@ -1,0 +1,12 @@
+/* ---- Mixin ----*/
+@mixin font-style($size){
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  font-size: $size;
+  text-align: center;
+}
+
+/* ---- Variables ----*/
+$darkBlue: #08102d;
+$middleBlue: #235581;
+$lightBlue: #427ca2;

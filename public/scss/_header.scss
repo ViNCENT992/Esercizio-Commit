@@ -1,0 +1,35 @@
+h6{
+  text-align: center;
+}
+
+#mainTitle{
+  h1{
+    @include font-style(25px);
+    color: $darkBlue;
+    letter-spacing: 8px;
+    margin-bottom: 60px;
+  }
+}
+
+.circleContainer_circle{
+  width: 90px;
+  height: 90px;
+  background-color: #fff;
+  border: 13px solid $darkBlue;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 22px;
+  border-radius: 50%;
+  margin: 0 auto;
+  p{
+    @include font-style(12px);
+  }
+}
+
+#subTitle{
+  margin-top: 50px;
+  p{
+    @include font-style(18px);
+    color: #333333;
+  }
+}
